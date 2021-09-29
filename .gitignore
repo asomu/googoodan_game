@@ -1,0 +1,14 @@
+*.csv
+*.xlsx
+*.log
+*.spec
+*.dat
+*.txt
+.idea/
+.venv_jira_mvc/
+docs
+build
+dist
+src/jira_manager.egg-info/
+__pycache__
+.pytest_cache
