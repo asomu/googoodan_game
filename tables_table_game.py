@@ -1,7 +1,6 @@
 import pygame
 import random
 import json
-from dataclasses import dataclass
 
 BLACK = (0, 0, 0)  # RGB
 WHITE = (255, 255, 255)
@@ -29,8 +28,8 @@ class MySound:
     def __init__(self):
         self.fail = pygame.mixer.Sound("sound/fail.wav")
         self.start = pygame.mixer.Sound("sound/start.wav")
-        self.running = pygame.mixer.Sound("sound/running.mp3")
-        self.game_clear = pygame.mixer.Sound("sound/clear.mp3")
+        self.running = pygame.mixer.Sound("sound/running.wav")
+        self.game_clear = pygame.mixer.Sound("sound/clear.wav")
         self.collect = pygame.mixer.Sound("sound/pass.wav")
 
 

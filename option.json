@@ -1,7 +1,7 @@
 {
   "MY_FONT": "hy그래픽m",
-  "CLEAR_LEVEL": 10,
+  "CLEAR_LEVEL": 15,
   "COUNT_OF_LEVELUP": 10,
-  "TIME_LIMIT": 10
+  "TIME_LIMIT": 20
 }
 
